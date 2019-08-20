@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+    <ScrollView
+        android:id="@+id/Scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/RLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:text="E-mail"
+                android:textSize="20dip" />
+
+
+            <EditText
+                android:id="@+id/edittext2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:hint="Email Адресс"
+                android:inputType="textEmailAddress"
+                android:textSize="20dip" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittext2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:text="Пароль"
+                android:textSize="20dip" />
+
+
+            <EditText
+                android:id="@+id/edittext3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:hint="Пароль"
+                android:textSize="20dip" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittext3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:text="URL"
+                android:textSize="20dip" />
+
+
+            <EditText
+                android:id="@+id/edittext4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:hint="URL"
+                android:text="http://newvoluntaty.xyz"
+                android:textSize="20dip" />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edittext4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1dp"
+                android:text="  Авторизироваться  "
+                android:textSize="20dip" />
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мониторинг Skype"
+                android:id="@+id/checkBox1"
+                android:layout_below="@+id/button1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp" />
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мониторинг Viber"
+                android:id="@+id/checkBox2"
+                android:layout_below="@+id/checkBox1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp" />
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мониторинг Fasebook"
+                android:id="@+id/checkBox3"
+                android:layout_below="@+id/checkBox2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp" />
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мониторинг Watsapp"
+                android:id="@+id/checkBox4"
+                android:layout_below="@+id/checkBox3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="10dp" />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
